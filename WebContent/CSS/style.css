@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
 h1 {
 	font-size: 24px;
@@ -29,7 +29,7 @@ button {
 	color: white;
 	padding: 15px;
 	border-radius: 3px;
-	bax-shadow: 0 0 8px rgba(0, 0, 0, .4);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .4);
 }
 .control {
 	margin-bottom: 3em;
@@ -44,7 +44,7 @@ label {
 	font-size: .9em;
 	padding: 3px;
 	background-color: #fee;
-	fonr-weight: bold;
+	font-weight: bold;
 }
 
 
