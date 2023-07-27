@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+h1 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.content {
+	background-color: #fff;
+	width: 500px;
+	margin: 10px auto;
+	border: 1px solid #d1d1d1;
+	padding: 30px;
+	border-radius: 10px;
+
+}
+input {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #d1d1d1;
+	font-size: 25px;
+	padding: 8px;
+	width: 100%;
+
+}
+button {
+	width: 100%;
+	background-color: #2096F3;
+	color: white;
+	padding: 15px;
+	border-radius: 3px;
+	bax-shadow: 0 0 8px rgba(0, 0, 0, .4);
+}
+.control {
+	margin-bottom: 3em;
+}
+label {
+	margin-bottom: .5em;
+	display:block;
+}
+.required {
+	margin-left: .3em;
+	color: #f33;
+	font-size: .9em;
+	padding: 3px;
+	background-color: #fee;
+	fonr-weight: bold;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+}
+
+a.btn-c {
+    font-size: 1.8rem;
+
+    position: relative;
+
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+    color: #fff;
+    border-radius: 100vh;
+    background: blue;
+    -webkit-box-shadow: 0 5px 0 black;
+    box-shadow: 0 5px 0 black;
+}
+
+a.btn-c span {
+    color: white;
+}
+
+a.btn-c small {
+    font-weight: bold;
+}
+
+a.btn-c i {
+    margin-right: 1rem;
+}
+
+a.btn-c:hover {
+    -webkit-transform: translate(0, 3px);
+    transform: translate(0, 3px);
+
+    color: #fff;
+    background: black;
+    -webkit-box-shadow: 0 2px 0 black;
+    box-shadow: 0 2px 0 black;
+
